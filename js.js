@@ -105,12 +105,16 @@
 //   console.log(fruit);
 // }
 
-const person ={
-  name:"farhan",
-  age:25,
-  city:"aurangabad"
-}
-for(const key in person){
-  console.log(key,person[key]);
-}
+// const person ={
+//   name:"farhan",
+//   age:25,
+//   city:"aurangabad"
+// }
+// for(const key in person){
+//   console.log(key,person[key]);
+// }
+
+let str = "farhan";
+let reversestr = str.split("").reverse().join("");
+console.log(reversestr);
 
