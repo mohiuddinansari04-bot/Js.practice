@@ -114,7 +114,13 @@
 //   console.log(key,person[key]);
 // }
 
-let str = "farhan";
-let reversestr = str.split("").reverse().join("");
-console.log(reversestr);
-
+// let str = "farhan";
+// let reversestr = str.split("").reverse().join("");
+// console.log(reversestr);
+function reverseString(str){
+  let reversed = "";
+  for (let i=str.length - 1 ; i>=0 ; i--){
+    reversed += str[i];
+  }
+return reversed;
+}
