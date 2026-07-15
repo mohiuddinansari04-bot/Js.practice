@@ -105,12 +105,12 @@
 //   console.log(fruit);
 // }
 
-// const person ={
-//   name:"farhan",
-//   age:25,
-//   city:"aurangabad"
-// }
-// for(const key in person){
-//   console.log(key,person[key]);
-// }
+const person ={
+  name:"farhan",
+  age:25,
+  city:"aurangabad"
+}
+for(const key in person){
+  console.log(key,person[key]);
+}
 
