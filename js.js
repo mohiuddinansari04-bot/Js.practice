@@ -117,12 +117,10 @@
 // let str = "farhan";
 // let reversestr = str.split("").reverse().join("");
 // console.log(reversestr);
-function reverseString(str){
+function reversedstring(str){
   let reversed = "";
-  for (let i=str.length - 1 ; i>=0 ; i--){
-    reversed += str[i];
+  for(let i=str.length -1 ;i>=0; i--){
+    reversed  += str[i];
   }
-return reversed;
+  return reversed;
 }
-
-console.log(reverseString("farhan"));
