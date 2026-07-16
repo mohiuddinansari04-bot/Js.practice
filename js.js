@@ -117,10 +117,43 @@
 // let str = "farhan";
 // let reversestr = str.split("").reverse().join("");
 // console.log(reversestr);
-function reversedstring(str){
-  let reversed = "";
-  for(let i=str.length -1 ;i>=0; i--){
-    reversed  += str[i];
-  }
-  return reversed;
-}
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+
+// function counter(){
+// let count = 0;
+// return function(){
+//   count++;
+//   return count;
+// }
+// }
+
+// const arr =["apple","banana","cherry","date","elderberry","fig","grape","honeydew","kiwi","lemon"];
+
+// const result =arr.map(a)
+// let arr = [10, 15, 30, "cat", "e", 40, 61, "q", 23, 75];
+
+// let numbers = arr.filter(item => typeof item === "number");
+// let strings = arr.filter(item => typeof item === "string");
+
+// console.log(numbers);
+// console.log(strings);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
