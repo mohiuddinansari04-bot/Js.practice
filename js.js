@@ -169,6 +169,36 @@
 // console.log(reversedstring("farhan"));
 // console.log(reversedstring("ansari"));
 
-let str = "farhan";
-let reveersestr=str.split("").reverse().join("");
-console.log(reveersestr);
+// let str = "farhan";
+// let reveersestr=str.split("").reverse().join("");
+// console.log(reveersestr);
+
+// let arr =[10,15,30,"cat","e",40,61,"q",23,75];
+// let numbers = arr.filter(item => typeof item === "number");
+// let strings = arr.filter(item => typeof item === "string");
+//   console.log(numbers);
+//   console.log(strings);
+
+// let arr =[1,2,3,4,5,6,7,8,9,10];
+// let asnwer=arr.reduce((total,num)=>total+num,0);
+// console.log(asnwer);
+
+// // let name =  "farhan";
+// let name ="ansari";
+// console.log(name);
+
+// const name ="farhan";
+// name ="ansari";
+// console.log(name );
+
+// a = 10
+// var a
+// console.log(a);
+const arr=[
+  {name:"farhan",age:22},
+  {name:"ansari",age:25},
+  {name:"meet",age:20}
+]
+
+const result =arr.find(item=>item.age>65);
+console.log(result);
