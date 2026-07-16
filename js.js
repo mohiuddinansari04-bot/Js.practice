@@ -145,15 +145,30 @@
 // console.log(strings);
 
 
+// let str = "farhan";
+// let reversestr =str.split("").reverse("").join("");
+// console.log(reversestr);
 
 
+// function reversestring(str){
+//   let reversed="";
+//   for(let i=str.length -1;i>=0;i--){
+//     reversed += str[i];
+//   }
+//     return reversed;
+// }
 
 
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// console.log(reversedstring("farhan"));
+// console.log(reversedstring("ansari"));
 
-
-
-
-
-
-
-
+let str = "farhan";
+let reveersestr=str.split("").reverse().join("");
+console.log(reveersestr);
