@@ -194,11 +194,29 @@
 // a = 10
 // var a
 // console.log(a);
-const arr=[
-  {name:"farhan",age:22},
-  {name:"ansari",age:25},
-  {name:"meet",age:20}
-]
+// const arr=[
+//   {name:"farhan",age:22},
+//   {name:"ansari",age:25},
+//   {name:"meet",age:22}
+// ]
 
-const result =arr.find(item=>item.age>65);
-console.log(result);
+// const result =arr.filter(item=>item.age===22);
+// console.log(result);
+// let arr =[10,8,"c",11,"q",5];
+
+// let number = arr.filter(item=>typeof item==="number")
+// let char = arr.filter(item=>typeof item==="string")
+// console.log(char)
+// console.log(number)
+
+const arr = [100,500,700,800,200];
+for(let i=0;i<arr.length;i++){
+  for(let j=i+1;j<arr.length;j++){
+    if(arr[i]+arr[j]==600){
+      console.log(arr[i]+arr[j]);
+      console.log(arr[i],arr[j]);
+      
+      
+    }
+  }
+}
