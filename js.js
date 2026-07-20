@@ -250,27 +250,30 @@
 
 // console.log([]== false)
 
+// {seperating char,number, word without using of built in methord}
+// let arr =[10,20,30,"c",80,"farhan","ansari",7,5,"j","f"]
 
-let arr =[10,20,30,"c",80,"farhan","ansari",7,5,"j","f"]
-
-let number =[];
-let char =[];
-let word =[];
+// let number =[];
+// let char =[];
+// let word =[];
 
 
-for(let item of arr ){
-  if(typeof item ==="number"){
-    number.push(item)
-  }else if(typeof item ==="string"){
-    if(item.length === 1){
-      char.push(item)
-    }else{
-      word.push(item)
-    }
-  }
+// for(let item of arr ){
+//   if(typeof item ==="number"){
+//     number.push(item)
+//   }else if(typeof item ==="string"){
+//     if(item.length === 1){
+//       char.push(item)
+//     }else{
+//       word.push(item)
+//     }
+//   }
 
-}
+// }
 
-console.log(number);
-console.log(char);
-console.log(word);
+// console.log(number);
+// console.log(char);
+// console.log(word);
+
+
+
