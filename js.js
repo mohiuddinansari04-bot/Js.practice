@@ -209,14 +209,68 @@
 // console.log(char)
 // console.log(number)
 
-const arr = [100,500,700,800,200];
-for(let i=0;i<arr.length;i++){
-  for(let j=i+1;j<arr.length;j++){
-    if(arr[i]+arr[j]==600){
-      console.log(arr[i]+arr[j]);
-      console.log(arr[i],arr[j]);
+// const arr = [100,500,700,800,200];
+// for(let i=0;i<arr.length;i++){
+//   for(let j=i+1;j<arr.length;j++){
+//     if(arr[i]+arr[j]==600){
+//       console.log(arr[i]+arr[j]);
+//       console.log(arr[i],arr[j]);
       
       
+//     }
+//   }
+// }
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// console.log(reversedstring("farhan"));
+// console.log(reversedstring("ansari"));
+// let arr =[100,500,200,700,8900,900]
+// for(let i = 0; i<arr.length;i++){
+//   for(let j=i+1;j<arr.length;j++){
+//       if(arr[i]+arr[j]===600){
+//       console.log(arr[i]+arr[j]);
+//       console.log(arr[i],arr[j]);
+
+//   }
+// }
+// }
+
+
+// console.log([]== false)
+
+
+let arr =[10,20,30,"c",80,"farhan","ansari",7,5,"j","f"]
+
+let number =[];
+let char =[];
+let word =[];
+
+
+for(let item of arr ){
+  if(typeof item ==="number"){
+    number.push(item)
+  }else if(typeof item ==="string"){
+    if(item.length === 1){
+      char.push(item)
+    }else{
+      word.push(item)
     }
   }
+
 }
+
+console.log(number);
+console.log(char);
+console.log(word);
