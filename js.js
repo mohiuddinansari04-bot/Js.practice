@@ -279,20 +279,39 @@
 
 // plaindrome
 
-function isPalindrome(str){
-  let left =0;
-  let right =str.length -1;
+// function isPalindrome(str){
+//   let left =0;
+//   let right =str.length -1;
 
-  while(left < right){
-    if(str[left]!==str[right]){
-      return false;
-    }
-    left++;
-    right--;
-  }
-  return true;
-}
-console.log(isPalindrome("madam"));   
-console.log(isPalindrome("racecar"));
-console.log(isPalindrome("farhan"));  
-console.log(isPalindrome("level"));
+//   while(left < right){
+//     if(str[left]!==str[right]){
+//       return false;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return true;
+// }
+// console.log(isPalindrome("madam"));   
+// console.log(isPalindrome("racecar"));
+// console.log(isPalindrome("farhan"));  
+// console.log(isPalindrome("level"));
+
+
+
+
+// let arr =[1,2,3,4,"farhan","ansari"]
+
+// let str=arr.filter((item=>typeof item==="string")) 
+// let num=arr.filter((item=>typeof item==="number")) 
+// console.log(str)
+// console.log(num)
+
+let employees=[
+   { name: "Farhan", salary: 50000 },
+  { name: "Rahul", salary: 30000 },
+  { name: "Aman", salary: 70000 }
+]
+
+let highsalary =employees.filter(emp=>emp.salary>50000);
+console.log(highsalary);
