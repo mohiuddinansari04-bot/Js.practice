@@ -307,11 +307,35 @@
 // console.log(str)
 // console.log(num)
 
-let employees=[
-   { name: "Farhan", salary: 50000 },
-  { name: "Rahul", salary: 30000 },
-  { name: "Aman", salary: 70000 }
-]
+// let employees=[
+//    { name: "Farhan", salary: 50000 },
+//   { name: "Rahul", salary: 30000 },
+//   { name: "Aman", salary: 70000 }
+// ]
 
-let highsalary =employees.filter(emp=>emp.salary>50000);
-console.log(highsalary);
+// let highsalary =employees.filter(emp=>emp.salary>50000);
+// console.log(highsalary);
+
+
+// const arr=[1,2,3,4,5,6,7,8,9,10]
+
+// const greaterarr=arr.map((el)=>{
+//    return el>2;
+// })
+// console.log(greaterarr);
+
+// console.log([]+{})
+
+// let a=[1,2,3,4,5]
+// a[11]=100;
+// console.log(a.length)
+// console.log(a)
+
+function abc(){
+  return
+  {
+    b:1
+
+  }
+}
+console.log(abc());
