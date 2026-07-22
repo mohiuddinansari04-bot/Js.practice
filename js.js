@@ -328,14 +328,36 @@
 
 // let a=[1,2,3,4,5]
 // a[11]=100;
-// console.log(a.length)
-// console.log(a)
+// // console.log(a.length)
+// // console.log(a)
 
-function abc(){
-  return
-  {
-    b:1
+// function reversestr(str){
+//   let reversed=" ";
+//   for(let i=str.length -1; i>=0;i--){
+//     reversed +=str[i];
+//   }
+//   return reversed;
+// }
+//  console.log(reversestr("farhan"))
+//  function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// console.log(reversedstring("farhan"));
+// console.log(reversedstring("ansari"));
 
-  }
-}
-console.log(abc());
+
+const arr=[10,20,30,40,50]
+
+const result =arr.slice(1,2)
+console.log(result);
