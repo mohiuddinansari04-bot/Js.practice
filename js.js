@@ -357,7 +357,10 @@
 // console.log(reversedstring("ansari"));
 
 
-const arr=[10,20,30,40,50]
+// const arr=[10,20,30,40,50]
 
-const result =arr.slice(1,2)
-console.log(result);
+// const result =arr.slice(1,2)
+// console.log(result);
+
+
+//reverse 
