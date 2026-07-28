@@ -364,17 +364,35 @@
 
 
 //reverse 
-function isPalindrome(str){
-  let left=0;
-  let right =str.length -1;
-  while(left <right){
-    if(str[left]!==str[right]){
-      return false;
-    }
-    left++;
-    right--;
+// function isPalindrome(str){
+//   let left=0;
+//   let right =str.length -1;
+//   while(left <right){
+//     if(str[left]!==str[right]){
+//       return false;
+//     }
+//     left++;
+//     right--;
 
+//   }
+//   return true;
+// }
+// console.log(isPalindrome("madam"))
+// function reversedstring(str){
+//   let reversed = "";
+//   for(let i=str.length -1 ;i>=0; i--){
+//     reversed  += str[i];
+//   }
+//   return reversed;
+// }
+// console.log(reversedstring("farhan"));
+// console.log(reversedstring("ansari"));
+function reveersedstring(str){
+  let reversed="";
+  for(let i=str.length -1;i>=0;i--){
+    reversed+=str[i]
   }
-  return true;
+  return reversed;
+
 }
-console.log(isPalindrome("madam"))
+console.log(reveersedstring("farhan"))
