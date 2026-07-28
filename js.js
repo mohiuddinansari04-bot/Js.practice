@@ -387,12 +387,28 @@
 // }
 // console.log(reversedstring("farhan"));
 // console.log(reversedstring("ansari"));
-function reveersedstring(str){
-  let reversed="";
-  for(let i=str.length -1;i>=0;i--){
-    reversed+=str[i]
-  }
-  return reversed;
+// function reveersedstring(str){
+//   let reversed="";
+//   for(let i=str.length -1;i>=0;i--){
+//     reversed+=str[i]
+//   }
+//   return reversed;
 
-}
-console.log(reveersedstring("farhan"))
+// }
+// console.log(reveersedstring("farhan"))
+
+
+// function ispalendrom(str){
+//   let left =0;
+//   let right =str.length -1;
+//   while(left<right){
+//     if(str[left]!==str[right]){
+//       return false;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return true;
+// }
+// console.log(ispalendrom("farhan"))
+// console.log(ispalendrom("madam"))
