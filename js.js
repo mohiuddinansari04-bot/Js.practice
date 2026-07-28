@@ -412,3 +412,39 @@
 // }
 // console.log(ispalendrom("farhan"))
 // console.log(ispalendrom("madam"))
+
+// const arr=[10,200,500,1000,5000]
+
+
+
+//find largest number///
+
+// function largest(arr){
+//   let max=arr[0];
+//   for(let i=1;i<arr.length;i++){
+//     if(arr[i]>max){
+//       max=arr[i]
+//     }
+//   }
+//   return max;
+
+// }
+// console.log(largest([100,400,500]))
+
+//second largest
+// function secondlargest(arr){
+//   let first =-Infinity;
+//   let second =-Infinity;
+//   for(let  num of arr){
+//     if(num >first){
+//       second=first;
+//       first=num;
+//     }
+//     else if(num>second && num !==first){
+//       second=num;
+//     }
+//   }
+//   return second;
+// }
+
+// console.log(secondlargest([5,8,10,20,15]))
