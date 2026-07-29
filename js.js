@@ -462,6 +462,16 @@
 
 // console.log(factorial(5));
 
-const numbers = [1, 2, 3, 4, 5, 6];
-const event =numbers.filter(num=>num %2!==0);
-console.log(event);
+//sum of arr 
+
+function sum(arr){
+    let total=0;
+
+    for(let num of arr ){
+        total+=num;
+    }
+    return total;
+
+}
+console.log(sum([1,2,3,4,5,6]))
+
