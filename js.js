@@ -448,3 +448,20 @@
 // }
 
 // console.log(secondlargest([5,8,10,20,15]))
+
+// function factorial(n){
+
+//     let fact=1;
+
+//     for(let i=1;i<=n;i++){
+//         fact*=i;
+//     }
+
+//     return fact;
+// }
+
+// console.log(factorial(5));
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const event =numbers.filter(num=>num %2!==0);
+console.log(event);
