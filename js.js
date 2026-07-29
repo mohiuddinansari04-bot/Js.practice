@@ -464,14 +464,18 @@
 
 //sum of arr 
 
-function sum(arr){
-    let total=0;
+// function sum(arr){
+//     let total=0;
 
-    for(let num of arr ){
-        total+=num;
-    }
-    return total;
+//     for(let num of arr ){
+//         total+=num;
+//     }
+//     return total;
 
-}
-console.log(sum([1,2,3,4,5,6]))
+// }
+// console.log(sum([1,2,3,4,5,6]))
+
+//remove duplicate
+
+
 
