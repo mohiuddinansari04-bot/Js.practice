@@ -477,14 +477,30 @@
 
 //remove duplicate
 
-function removeduplicate(arr){
+// function removeduplicate(arr){
     
+//     let result=[];
+//     for(let i=0;i<arr.length;i++){
+//         if(!result.includes(arr[i])){
+//             result.push(arr[i])
+//         }
+//     }
+//     return result;
+// }
+// console.log(removeduplicate([1,2,1,3,4,2,5,3,6,3,7,6]))
+
+
+//find duplicate
+
+function duplicates(arr){
     let result=[];
-    for(let i=0;i<arr.length;i++){
-        if(!result.includes(arr[i])){
-            result.push(arr[i])
+    for(let i=0; i<arr.length;i++){
+        for(let j=i+1;j<arr.length;j++){
+            if(arr[i]===arr[j]&& !result.includes(arr[i])){
+                result.push(arr[i])
+            }
         }
     }
     return result;
 }
-console.log(removeduplicate([1,2,1,3,4,2,5,3,6,3,7,6]))
+console.log(duplicates([1,2,3,2,4,1]));
