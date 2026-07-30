@@ -514,12 +514,32 @@
 // }
 // console.log(reversestr("farhan"))
 
+//  function ispalendrom(str){
+//   let left =0;
+//   let right =str.length -1;
+//   while(left<right){
+//     if(str[left]!==str[right]){
+//       return false;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return true;
+// }
+// console.log(ispalendrom("farhan"))
+// console.log(ispalendrom("madam"))
+
 
 function ispalendron(str){
-  let result="";
-  for(let i=str.length -1;i>=0;i--){
-    result+=str[i];
+ let left =0;
+ let right= str.length -1;
+ while(left<right){
+  if(str[left]!==str[right]){
+    return false;
   }
-  return result;
+  left++;
+  right--;
+ }
+ return true;
 }
 console.log(ispalendron("madam"))
