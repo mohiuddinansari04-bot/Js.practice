@@ -505,11 +505,11 @@
 // }
 // console.log(duplicates([1,2,3,2,4,1]));
 
-function reversestr(str){
-let reverse="";
-for(let i=str.length -1;i>=0;i--){
-    reverse+=str[i];
-}
-return reverse
-}
-console.log(reversestr("farhan"))
+// function reversestr(str){
+// let reverse="";
+// for(let i=str.length -1;i>=0;i--){
+//     reverse+=str[i];
+// }
+// return reverse
+// }
+// console.log(reversestr("farhan"))
