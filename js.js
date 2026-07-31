@@ -529,17 +529,17 @@
 // console.log(ispalendrom("farhan"))
 // console.log(ispalendrom("madam"))
 
+// console.log([]+[    ])
 
-function ispalendron(str){
- let left =0;
- let right= str.length -1;
- while(left<right){
-  if(str[left]!==str[right]){
-    return false;
-  }
-  left++;
-  right--;
- }
- return true;
-}
-console.log(ispalendron("madam"))
+
+// const arr=[1,2,3,4,4,5,5,1,]
+//   let unique=[]
+  
+//   for(let i=0;i<arr.length;i++){
+//     if(!unique.includes(arr[i])){
+//       unique.push(arr[i])
+//     }
+//   }
+//   console.log(unique)
+
+
