@@ -543,3 +543,33 @@
 //   console.log(unique)
 
 
+// function secondlargest(arr){
+//   let largest= -Infinity
+//   let secondlargest= -Infinity
+
+//   for(let num of arr){
+//     if(num>largest){
+//       secondlargest=largest;
+//       largest=num
+//     }else if(num > secondlargest&&num !==largest){
+//       secondlargest=num
+//     }
+
+//   }
+//   return secondlargest
+
+// }
+// console.log(secondlargest([1,2,3,4,5]))
+
+
+function removedublicate(arr){
+  let result=[];
+  for(let i=0;i<arr.length;i++){
+    if(!result.includes(arr[i])){
+      result.push(arr[i])
+
+    }
+  }
+  return result;
+}
+console.log(removedublicate([1, 2, 2, 3, 4, 4, 5]))
