@@ -602,13 +602,61 @@
 
 
 
-function largest(arr){
-  let max=arr[0];
-  for(let i=1;i<arr.length;i++){
-    if(arr[i]>max){
-      max=arr[i]
+// function largest(arr){
+//   let max=arr[0];
+//   for(let i=1;i<arr.length;i++){
+//     if(arr[i]>max){
+//       max=arr[i]
+//     }
+//   }
+//   return max;
+// }
+// console.log(largest([10,20,30,40,50]))
+
+// function secondlargest(arr){
+//   let largest = -Infinity;
+//   let secondlargest = -Infinity;
+//   for(let num of arr){
+//     if(num>largest){
+//       secondlargest=largest;
+//       largest=num;
+//     }else if (num>secondlargest &&num !==largest){
+//       secondlargest=num;
+//     }
+
+//   }
+//   return secondlargest;
+// }
+//  console.log(secondlargest([10,20,30,40,50]))
+
+
+
+// function removeduklicate(arr){
+//   let result=[];
+//   for(let i=0;i<arr.length;i++){
+//     if(!result.includes(arr[i])){
+//       result.push(arr[i])
+//     }
+//   }
+//   return result;
+// }
+// console.log(removeduklicate([1,2,3,4,4,5,5,1]))
+
+
+function secondlargest(arr){
+  let largest = -Infinity;
+  let secondlargest = -Infinity;
+  for(let num of arr ){
+    if(num>largest){
+      secondlargest=largest;
+      largest=num;
+    }
+    else if (num >secondlargest && num!==largest){
+      secondlargest=num;
+
     }
   }
-  return max;
+  return secondlargest;
 }
-console.log(largest([10,20,30,40,50]))
+
+console.log(secondlargest([10,20,30,40,50]))
