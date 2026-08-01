@@ -585,17 +585,30 @@
 // console.log(reversestr("hello"))
 
 
-function ispalendrom(str){
-  let left =0;
-  let right=str.length -1;
-  while(left<right){
-    if(str[left]!==str[right]){
-      return false;
-    }
-    left++;
-    right--;
-  }
-  return true;
+// function ispalendrom(str){
+//   let left =0;
+//   let right=str.length -1;
+//   while(left<right){
+//     if(str[left]!==str[right]){
+//       return false;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return true;
   
+// }
+// console.log(ispalendrom("madam"))
+
+
+
+function largest(arr){
+  let max=arr[0];
+  for(let i=1;i<arr.length;i++){
+    if(arr[i]>max){
+      max=arr[i]
+    }
+  }
+  return max;
 }
-console.log(ispalendrom("madam"))
+console.log(largest([10,20,30,40,50]))
