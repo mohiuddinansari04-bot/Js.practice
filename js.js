@@ -680,3 +680,36 @@
 //  return result; 
 // }
 // console.log(removeduplicate([1,2,3,4,4,5,5,1]))
+
+// / function secondlargest(arr){
+//   let largest = -Infinity;
+//   let secondlargest = -Infinity;
+//   for(let num of arr){
+//     if(num>largest){
+//       secondlargest=largest;
+//       largest=num;
+//     }else if (num>secondlargest &&num !==largest){
+//       secondlargest=num;
+//     }
+
+//   }
+//   return secondlargest;
+// }
+//  console.log(secondlargest([10,20,30,40,50]))
+
+
+function secondlargest(arr){
+  let largest =- Infinity;
+  let secondlargest =- Infinity;
+
+  for(let num of arr){
+    if(num >largest){
+      secondlargest=largest;
+      largest=num;
+    }else if(num>secondlargest&&num !==largest){
+      secondlargest=num;
+    }
+  }
+  return secondlargest;
+}
+console.log(secondlargest([10,20,30,40,50]))
