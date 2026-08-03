@@ -642,21 +642,12 @@
 // }
 // console.log(removeduklicate([1,2,3,4,4,5,5,1]))
 
+function reversestr(str){
+  let result="";
+  for(let i=str.length -1;i>=0;i--){
+    result+=str[i];
 
-function secondlargest(arr){
-  let largest = -Infinity;
-  let secondlargest = -Infinity;
-  for(let num of arr ){
-    if(num>largest){
-      secondlargest=largest;
-      largest=num;
-    }
-    else if (num >secondlargest && num!==largest){
-      secondlargest=num;
-
-    }
   }
-  return secondlargest;
+  return result;
 }
-
-console.log(secondlargest([10,20,30,40,50]))
+console.log(reversestr("farhan"))
