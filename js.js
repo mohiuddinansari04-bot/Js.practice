@@ -741,15 +741,15 @@
 // }
 
 // console.log(duplicate([1,1,2,3,4,3,5,4,6,6,7,8,9,87,6,5,4,3,3,2,,4]))
+function countvowels(str){
+  let count =0;
+  let vowels="aeiouAEIOU";
+  for(let ch of str){
+    if(vowels.includes(ch)){
+      count++
 
-function removeduplicate(arr){
-  let result =[];
-  for(let i=0;i<arr.length;i++){
-    if(!result.includes(arr[i])){
-      result.push(arr[i]);
     }
-
   }
-  return result;
+  return count;
 }
-console.log(removeduplicate([1,2,3,4,4,5,5,1]))
+console.log(countvowels("aeiouAEIOU"))
