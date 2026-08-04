@@ -741,15 +741,23 @@
 // }
 
 // console.log(duplicate([1,1,2,3,4,3,5,4,6,6,7,8,9,87,6,5,4,3,3,2,,4]))
-function countvowels(str){
-  let count =0;
-  let vowels="aeiouAEIOU";
-  for(let ch of str){
-    if(vowels.includes(ch)){
-      count++
+// function countvowels(str){
+//   let count =0;
+//   let vowels="aeiouAEIOU";
+//   for(let ch of str){
+//     if(vowels.includes(ch)){
+//       count++
 
-    }
+//     }
+//   }
+//   return count;
+// }
+// console.log(countvowels("aeiouAEIOU"))
+function totalsum(arr){
+  let total=0;
+  for(let num of arr){
+    total+=num;
   }
-  return count;
+  return total;
 }
-console.log(countvowels("aeiouAEIOU"))
+console.log(totalsum([1,2,3,4,5,6,7,8,9,10]))
