@@ -727,3 +727,17 @@
 //   return result.concat(zeros);
 // }
 // console.log(movezeros([1,0,2,0,3,0,4,5]))
+
+function duplicate(arr){
+  let result=[];
+  for(let i=0;i<arr.length;i++){
+    for(let j=i+1;j<arr.length;j++){
+      if(arr[i]===arr[j]&&!result.includes(arr[i])){
+        result.push(arr[i])
+      }
+    }
+  }
+  return result;
+}
+
+console.log(duplicate([1,1,2,3,4,3,5,4,6,6,7,8,9,87,6,5,4,3,3,2,,4]))
