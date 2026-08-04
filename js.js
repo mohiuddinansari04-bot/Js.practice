@@ -714,16 +714,16 @@
 // }
 // console.log(secondlargest([10,20,30,40,50]))
 
-function movezeros(arr){
-  let result=[];
-  let zeros=[];
-  for(let num of arr){
-    if(num===0){
-      zeros.push(num)
-    } else {
-      result.push(num)
-    }
-  }
-  return result.concat(zeros);
-}
-console.log(movezeros([1,0,2,0,3,0,4,5]))
+// function movezeros(arr){
+//   let result=[];
+//   let zeros=[];
+//   for(let num of arr){
+//     if(num===0){
+//       zeros.push(num)
+//     } else {
+//       result.push(num)
+//     }
+//   }
+//   return result.concat(zeros);
+// }
+// console.log(movezeros([1,0,2,0,3,0,4,5]))
