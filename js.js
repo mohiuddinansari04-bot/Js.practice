@@ -698,18 +698,32 @@
 //  console.log(secondlargest([10,20,30,40,50]))
 
 
-function secondlargest(arr){
-  let largest =- Infinity;
-  let secondlargest =- Infinity;
+// function secondlargest(arr){
+//   let largest =- Infinity;
+//   let secondlargest =- Infinity;
 
+//   for(let num of arr){
+//     if(num >largest){
+//       secondlargest=largest;
+//       largest=num;
+//     }else if(num>secondlargest&&num !==largest){
+//       secondlargest=num;
+//     }
+//   }
+//   return secondlargest;
+// }
+// console.log(secondlargest([10,20,30,40,50]))
+
+function movezeros(arr){
+  let result=[];
+  let zeros=[];
   for(let num of arr){
-    if(num >largest){
-      secondlargest=largest;
-      largest=num;
-    }else if(num>secondlargest&&num !==largest){
-      secondlargest=num;
+    if(num===0){
+      zeros.push(num)
+    } else {
+      result.push(num)
     }
   }
-  return secondlargest;
+  return result.concat(zeros);
 }
-console.log(secondlargest([10,20,30,40,50]))
+console.log(movezeros([1,0,2,0,3,0,4,5]))
