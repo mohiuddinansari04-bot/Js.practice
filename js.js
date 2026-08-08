@@ -753,11 +753,40 @@
 //   return count;
 // }
 // console.log(countvowels("aeiouAEIOU"))
-function totalsum(arr){
-  let total=0;
-  for(let num of arr){
-    total+=num;
+// function totalsum(arr){
+//   let total=0;
+//   for(let num of arr){
+//     total+=num;
+//   }
+//   return total;
+// }
+// console.log(totalsum([1,2,3,4,5,6,7,8,9,10]))
+
+
+// function curring
+// function curring(a){
+//   return function(b){
+//     return function(c){
+//       return function(d){
+//         return a+b+c+d;
+//       }
+//     }
+//   }
+// }
+// const result =curring(4)(2)(2)(2);
+// console.log(result);
+
+
+// console.log([]===[]);
+// console.log([]==[]);
+
+
+
+function reversestr(str){
+  let result =""
+  for(let i=str.length -1;i>=0;i--){
+    result+=str[i]
   }
-  return total;
+  return result;
 }
-console.log(totalsum([1,2,3,4,5,6,7,8,9,10]))
+console.log(reversestr("farhan"))
