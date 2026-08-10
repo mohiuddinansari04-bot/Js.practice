@@ -782,11 +782,18 @@
 
 
 
-function reversestr(str){
-  let result ="";
-  for(let i=str.length -1;i>=0;i--){
-    result+=str[i];
+
+function ispalendrom(str){
+  let left=0;
+  let right =str.length -1;
+  for(let i =0;i<str.length;i++){
+    if(str[left]!==str[right]){
+      return false;
+    }
+    left++;
+    right--;
   }
-  return result;
+  return true;
 }
-console.log(reversestr("farhan"))
+console.log(ispalendrom("madam"))
+console.log(ispalendrom("farhan"))
