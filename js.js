@@ -783,9 +783,9 @@
 
 
 function reversestr(str){
-  let result =""
+  let result ="";
   for(let i=str.length -1;i>=0;i--){
-    result+=str[i]
+    result+=str[i];
   }
   return result;
 }
