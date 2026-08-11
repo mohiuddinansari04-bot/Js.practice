@@ -782,18 +782,8 @@
 
 
 
+const arr = ["a", "b", "c"];
 
-function ispalendrom(str){
-  let left=0;
-  let right =str.length -1;
-  for(let i =0;i<str.length;i++){
-    if(str[left]!==str[right]){
-      return false;
-    }
-    left++;
-    right--;
-  }
-  return true;
+for (let val of arr) {
+  console.log(val);
 }
-console.log(ispalendrom("madam"))
-console.log(ispalendrom("farhan"))
