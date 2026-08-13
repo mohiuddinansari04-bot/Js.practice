@@ -782,11 +782,13 @@
 
 
 
-function reversestr(str){
-  let result="";
-  for(let i=str.length -1;i>=0;i--){
-    result+=str[i]
+function dublicate(arr){
+  let result=[];
+  for(let i=0;i<arr.length;i++){
+    if(!result.includes(arr[i])){
+      result.push(arr[i])
+    }
   }
   return result;
 }
-console.log(reversestr("farhan"));
+console.log(dublicate([1, 2, 2, 3, 4, 4, 5]));
