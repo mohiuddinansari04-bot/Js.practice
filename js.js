@@ -782,7 +782,7 @@
 
 
 
-function dublicate(arr){
+function removeduplicate(arr){
   let result=[];
   for(let i=0;i<arr.length;i++){
     if(!result.includes(arr[i])){
@@ -791,4 +791,4 @@ function dublicate(arr){
   }
   return result;
 }
-console.log(dublicate([1, 2, 2, 3, 4, 4, 5]));
+console.log(removeduplicate([1,1,2,2,3,3,4,5,6,7]))
